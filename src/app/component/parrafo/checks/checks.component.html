@@ -1,0 +1,20 @@
+<div class="form-check">
+  <input
+    class="form-check-input"
+    type="checkbox"
+    value=""
+    id="flexCheckDefault"
+    name="autorizo"
+    [(ngModel)]="isChecked"
+    (change)="log()"
+  />
+  <label for="checkbox">{{isChecked}}</label>
+  <label class="form-check-label" for="checkbox">
+    Autorizo el <span>tratamiento de mis datos personales</span>  y autorizo <span>términos y condiciones</span>  de la página web.
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <!-- <input type="checkbox" [ngModel]="false"> No -->
+  </label>
+</div>

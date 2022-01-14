@@ -1,0 +1,106 @@
+.btnCustom {
+  border: 2px solid #003662;
+  border-radius: 4px;
+  opacity: 1;
+  cursor: pointer;
+  top: 845px;
+  left: 325px;
+  width: 160px;
+  height: 48px;
+  color: #003662;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.letra {
+  text-align: center;
+  font: normal normal bold 16px/20px Proxima Nova;
+  letter-spacing: 0.8px;
+  color: #003662;
+  opacity: 1;
+}
+
+.parrcard {
+  text-align: center;
+  font: normal normal normal 16px/22px Proxima Nova;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.draw {
+  top: 633px;
+  left: 345px;
+  width: 118px;
+  height: 120px;
+  opacity: 1;
+  margin: auto;
+}
+
+.col {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+p {
+  text-align: center;
+  font: normal normal normal 16px/22px Proxima Nova;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.modalImg {
+  text-align: center;
+  font: normal normal normal 50px/22px Font Awesome 5 Pro;
+  letter-spacing: 0px;
+  color: #e5137e;
+  opacity: 1;
+}
+
+.modal-header {
+  border-bottom: none;
+  justify-content: center;
+}
+
+.modal-footer {
+  border-top: none;
+  justify-content: center;
+}
+
+.modal-title {
+  justify-content: center;
+}
+
+.btn-modaly {
+  background: #e5137e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.btn-modaly span {
+  text-align: center;
+  font: normal normal bold 16px/20px Proxima Nova;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0 15px;
+}
+
+#circulo {
+  height: 50px;
+  width: 50px;
+  background: #e5137e;
+  border-radius: 50px;
+}
+
+.fa-2x {
+  color: white;
+}
+/* .blocky {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  opacity: 1;
+} */

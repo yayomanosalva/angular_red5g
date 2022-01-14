@@ -1,0 +1,35 @@
+  <div class="row">
+    <p>{{tittleCard}}</p>
+    <div *ngFor="let card of cards" class="col-sm-6 d-inline">
+      <div class="card text-center">
+        <img src="{{ card.img }}" class="card-img-top draw" alt="man" />
+        <div class="card-body">
+          <p class="card-text parrcard">{{ card.parrafcard }}</p>
+          <a href="#" class="btn btn-outline-primary btnCustom" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          (click)="registro()" >
+            <span class="letra">INICIAR</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="exampleModalLabel" id="circulo">
+          <fa-icon [icon]="faThermometerEmpty" class="fa-2x"></fa-icon></span>
+      </div>
+      <div class="modal-body">
+        <p>Para continuar con el proceso de inscripción es necesario autorizar el tratamiento de datos y los términos y condiciones del sitio.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-modaly btn-lg" data-bs-dismiss="modal"
+        (click)="registro()">
+         <span>ACEPTAR</span> </button>
+      </div>
+    </div>
+  </div>
+</div>
